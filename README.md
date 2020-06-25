@@ -7,3 +7,6 @@ Integrantes:
 - Ricardo Salazar
 
 
+1.- Se creó la clase postre debido a que las clases helado y Pastel eran similares.
+Violaba el principio OCP
+ 
