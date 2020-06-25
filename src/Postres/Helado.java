@@ -30,6 +30,16 @@ public class Helado extends Postre{
         return precioFinal;
     }
 
+    public double getPrecioParcial() {
+        return precioParcial;
+    }
+
+    public void setPrecioParcial(double precioParcial) {
+        this.precioParcial = precioParcial;
+    }
+    
+    
+
     /*public ArrayList<Aderezo> getAderezos() {
         return aderezos;
     }*/

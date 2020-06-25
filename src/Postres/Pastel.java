@@ -29,14 +29,20 @@ package Postres;
 	        return precioFinal;
 	    }
 
-	    /*public ArrayList<Aderezo> getAderezos() {
-	        return aderezos;
-	    }*/
-
-	    @Override
-	    public String toString() {
-	        return "Pastel{" + "sabor=" + super.getSabor() + ", precioParcial=" + precioParcial + ", aderezos=" + super.getAderezos().toString() + '}';
+            
+	    public double getPrecioParcial() {
+	        return precioParcial;
 	    }
+
+            public void setPrecioParcial(double precioParcial) {
+                this.precioParcial = precioParcial;
+            }
+
+            @Override
+            public String toString() {
+                return "Pastel{" + "sabor=" + super.getSabor() + ", precioParcial=" + precioParcial + ", aderezos=" + super.getAderezos().toString() + '}';
+            }
+            
 	    public String showPrecioFinal(){
 	        return "Precio Final: $ " + calcularPrecioFinal();
 	    }
