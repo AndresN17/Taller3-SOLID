@@ -20,7 +20,7 @@ public class Postre {
 	public String getSabor() {
 		return this.sabor;
 	}
-	public void anadirAderezo(Aderezo aderezo) {
+	public void addAderezos(Aderezo aderezo) {
 		this.getAderezos().add(aderezo);
 	};
 	

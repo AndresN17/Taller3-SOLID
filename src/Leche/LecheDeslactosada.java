@@ -28,7 +28,7 @@ public class LecheDeslactosada extends LecheEntera {
     @Override
     public void usar(Object postre){
         if(postre.getClass() == Pastel.class){
-            System.out.println("Pastel no puede usar deslactosada, se usará leche descremada");
+            System.out.println("Pastel no puede usar deslactosada, se usara leche descremada");
             LecheEntera lechetemp = new LecheDescremada();
             lechetemp.usar(postre);
         }
