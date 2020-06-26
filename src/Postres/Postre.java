@@ -28,6 +28,6 @@ public class Postre {
 		this.getAderezos().remove(aderezo);
 	};
 	
-	//se creó la clase Postres para eliminar la clase operaciones aderezos y para que pastes y helado solo tengan explicitamente metodos que los diferencian
-	//
+	//se cree la clase Postres para eliminar la clase operaciones aderezos y para que pastes y helado solo tengan explicitamente metodos que los diferencian
+	
 }

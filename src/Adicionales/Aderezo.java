@@ -9,7 +9,15 @@ package Adicionales;
  *
  * @author Pedro Mendoza
  */
-public enum Aderezo {
-    MALVAVISCOS,FRUTILLA,CREMA
+public abstract class Aderezo {
+    //MALVAVISCOS,FRUTILLA,CREMA
+    
+    private String nombre;
+
+    public Aderezo() {
+      
+    }
+    public abstract void setNombre();
+    
     
 }

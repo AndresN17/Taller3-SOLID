@@ -5,12 +5,14 @@
  */
 package Leche;
 
+import Postres.*;
+
 /**
  *
  * @author Pedro Mendoza
  */
 public class LecheDeslactosada extends LecheEntera {
-    
+   /* 
     @Override
     public void usarHelado() {
         System.out.println("Usando leche deslactosada");
@@ -20,6 +22,20 @@ public class LecheDeslactosada extends LecheEntera {
     public void usarPastel() {
         // Lanzar error No se puede usar en pastel
         throw new RuntimeException(this.getClass() + ": No se puede usar en pastel");
-    }
         
+    }
+     */
+    @Override
+    public void usar(Object postre){
+        if(postre.getClass() == Pastel.class){
+            System.out.println("Pastel no puede usar deslactosada, se usará leche descremada");
+            LecheEntera lechetemp = new LecheDescremada();
+            lechetemp.usar(postre);
+        }
+        else{
+            System.out.println("Usando leche deslactosada");
+        }
+        
+    }
+    
 }
